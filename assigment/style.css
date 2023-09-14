@@ -25,14 +25,19 @@
 }
 .secondcard{
     border: 3px solid lightgray;
-    border-bottom: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /* border-bottom: 0px; */
+    border-radius: 14px;
     font-family: system-ui;
-    height: 200px;
-    width: 30%;
+    /* height: 200px; */
+    width: 50%;
     margin: 10px auto;
-    padding: 39px 34px;
+    /* padding: 39px 34px; */
+
+    /* border-radius: 14px;
+    margin: 40px auto;
+    /* padding: 10px; */
+    /* width: 59%; */ 
+    
 }
 .secondcard .box-img{
     display: inline-block;
@@ -43,10 +48,11 @@
   background-position: center center;
   background-size: cover;
 }
-/* .secondcard .innercard{
-    padding: 10px 30px;
-    margin: 12px;
-} */
+.secondcard .innercard{
+    padding: 30px;
+    align-content: left;
+    /* margin: 12px; */
+}
 .secondcard h1{
     line-height: 0px;
     font-family: cursive;
@@ -59,20 +65,24 @@
 .secondcard .profile-img{
     display: flex;
     justify-content: space-evenly;
+    margin: 50px 0px;
 }
 .secondcardfooter{
     /* height: 200px; */
-    width: 31.3%;
+    /* width: 31.3%;
     margin: auto;
     padding: 4px 24px;
     border: 3px solid lightgray;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-top: -1rem;
+    margin-top: -1rem; */
+    border-top: 3px solid lightgray;
+    align-content: left;
 }
 .secondcardfooter h3{
     font-family: cursive;
     color: #1f75e8;
+    padding: 0px 32px;
 }
 .thirdcard{
     border-radius: 14px;
