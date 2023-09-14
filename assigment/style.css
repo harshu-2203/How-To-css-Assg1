@@ -1,0 +1,169 @@
+@font-face{
+    font-family: headerfont;
+    src: url(MagionaDisplay/OpenType-TT/Magiona.ttf);
+}
+.firstcard{
+    background-color: rgb(29 229 146);
+    border-radius: 14px;
+    border: 1px solid lightgray;
+    height: 300px;
+    width: 30%;
+    font-family: cursive;
+    font-size: large;
+    margin: 10px auto;
+    padding: 39px 63px;
+}
+.firstcard p{
+    font-size: 14px
+}
+.firstcard .btn{
+    font-size: large;
+    font-weight: 900;
+    padding: 10px 30px;
+    border-radius: 29px;
+    border: none;
+}
+.secondcard{
+    border: 3px solid lightgray;
+    border-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: system-ui;
+    height: 200px;
+    width: 30%;
+    margin: 10px auto;
+    padding: 39px 34px;
+}
+.secondcard .box-img{
+    display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* .secondcard .innercard{
+    padding: 10px 30px;
+    margin: 12px;
+} */
+.secondcard h1{
+    line-height: 0px;
+    font-family: cursive;
+}
+.secondcard p{
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+}
+.secondcard .profile-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.secondcardfooter{
+    /* height: 200px; */
+    width: 31.3%;
+    margin: auto;
+    padding: 4px 24px;
+    border: 3px solid lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -1rem;
+}
+.secondcardfooter h3{
+    font-family: cursive;
+    color: #1f75e8;
+}
+.thirdcard{
+    border-radius: 14px;
+    margin: 10px auto;
+    /* padding: 10px; */
+    width: 500px;
+    border: 1px solid lightgray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.thirdcard .box-img{
+    width: 100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.thirdcard .padding{
+    padding: 20px;
+}
+.thirdcard .Pimg{
+    display: flex;
+    align-items: center;
+    color: #8b8383;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.thirdcard .Pimg img{
+    margin-right: 11px;
+}
+.thirdcard .padding h3{
+    font-family: cursive;
+    font-size: 28px;
+    margin: 0;
+}
+.thirdcard p{
+    font-family: math;
+    color: gray;
+    font-size: 24px;
+}
+.thirdcard .btn{    
+    font-size: larger;
+    background: transparent;
+    padding: 10px 17px;
+    color: #1c73e8;
+    border-color: #878b8d;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.login{
+    text-align: center;
+    width: 340px;
+    margin: 80px auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    font-size: 15px;
+}
+.login .show-text {
+    position: absolute;
+    right: 38rem;
+    margin-top: -49px;
+    color: #666;
+}
+.login .btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 73%;
+    font-family: monospace;
+    margin-top: 15px;
+}
+.bottomfooter{
+    margin-top: 42px;
+    color: gray;
+    font-family: cursive;
+}
+.bottomfooter a{
+    text-decoration: underline;
+}
+.termsfoot{
+    font-size: 13px;
+}
+.login h1{
+    font-family: headerfont;
+}
